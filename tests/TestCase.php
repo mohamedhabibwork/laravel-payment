@@ -2,9 +2,9 @@
 
 namespace HPayment\LaravelPayment\Tests;
 
+use HPayment\LaravelPayment\LaravelPaymentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use HPayment\LaravelPayment\LaravelPaymentServiceProvider;
 
 class TestCase extends Orchestra
 {

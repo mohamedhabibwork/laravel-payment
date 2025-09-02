@@ -2,9 +2,9 @@
 
 namespace HPayment\LaravelPayment;
 
+use HPayment\LaravelPayment\Commands\LaravelPaymentCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use HPayment\LaravelPayment\Commands\LaravelPaymentCommand;
 
 class LaravelPaymentServiceProvider extends PackageServiceProvider
 {
